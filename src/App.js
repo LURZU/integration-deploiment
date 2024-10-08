@@ -11,7 +11,7 @@ function App() {
         email: '',
         birthDate: '',
     });
-
+//test
     const [errors, setErrors] = useState({});
     const [isFormReady, setIsFormReady] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
