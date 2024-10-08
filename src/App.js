@@ -15,7 +15,6 @@ function App() {
     const [errors, setErrors] = useState({});
     const [isFormReady, setIsFormReady] = useState(false);
     const [isSubmitted, setIsSubmitted] = useState(false);
-//tets
     const validateForm = () => {
         let newErrors = {};
 
