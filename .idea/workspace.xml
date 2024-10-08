@@ -28,27 +28,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Jest.App integration tests.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.App integration tests.should display error messages for invalid inputs.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.Counter increments and decrements when the buttons are clicked.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.Validation functions tests.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.calculateAge Unit Tests Suites.executor&quot;: &quot;Run&quot;,
-    &quot;Jest.renders learn react link.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;/Users/tommosti/WebstormProjects/integration_deploiement_react_js/node_modules/react-scripts&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/tommosti/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Jest.App integration tests.executor": "Run",
+    "Jest.App integration tests.should display error messages for invalid inputs.executor": "Run",
+    "Jest.Counter increments and decrements when the buttons are clicked.executor": "Run",
+    "Jest.Validation functions tests.executor": "Run",
+    "Jest.calculateAge Unit Tests Suites.executor": "Run",
+    "Jest.renders learn react link.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/tommosti/WebstormProjects/integration_deploiement_react_js/node_modules/react-scripts",
+    "nodejs_interpreter_path": "node",
+    "nodejs_package_manager_path": "npm",
+    "npm.npm start.executor": "Run",
+    "ts.external.directory.path": "/Users/tommosti/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Jest.App integration tests.should display error messages for invalid inputs">
     <configuration name="App integration tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -154,6 +155,7 @@
       <workItem from="1728380213512" duration="218000" />
       <workItem from="1728380438611" duration="21000" />
       <workItem from="1728380465257" duration="12281000" />
+      <workItem from="1728394575957" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="feats : add idea to gitignore">
       <option name="closed" value="true" />
@@ -195,7 +197,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728391959273</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feats : add comment">
+      <option name="closed" value="true" />
+      <created>1728394591869</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728394591869</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feats : add comment">
+      <option name="closed" value="true" />
+      <created>1728394635214</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728394635214</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feats : add comment">
+      <option name="closed" value="true" />
+      <created>1728394930098</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1728394930098</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
