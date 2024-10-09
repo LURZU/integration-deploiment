@@ -1,7 +1,7 @@
 import './App.css';
 import { useState, useEffect } from "react";
 import { isValidAge, isValidPostalCode, isValidName, isValidEmail } from './module';
-//test
+
 function App() {
     const [formData, setFormData] = useState({
         firstName: '',
@@ -102,7 +102,6 @@ function App() {
                 </div>
             )}
             <form className="max-w-md mx-auto" onSubmit={handleSubmit}>
-                {/* Email */}
                 <div className="relative z-0 w-full mb-5 group">
                     <input
                         type="email"
@@ -119,8 +118,6 @@ function App() {
                         address</label>
                     {errors.email && <p className="text-red-500 text-sm">{errors.email}</p>}
                 </div>
-
-                {/* First Name */}
                 <div className="relative z-0 w-full mb-5 group">
                     <input
                         type="text"
@@ -138,7 +135,6 @@ function App() {
                     {errors.firstName && <p className="text-red-500 text-sm">{errors.firstName}</p>}
                 </div>
 
-                {/* Last Name */}
                 <div className="relative z-0 w-full mb-5 group">
                     <input
                         type="text"
@@ -172,8 +168,6 @@ function App() {
                            className="peer-focus:font-medium absolute text-sm text-gray-500 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 peer-focus:text-blue-600 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">City</label>
                     {errors.city && <p className="text-red-500 text-sm">{errors.city}</p>}
                 </div>
-
-                {/* Postal Code */}
                 <div className="relative z-0 w-full mb-5 group">
                     <input
                         type="text"
