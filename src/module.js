@@ -39,7 +39,6 @@ export function calculateAge(p) {
  * @returns {boolean} if the age of the person is not below 18.
  */
 export function isValidAge(birthDate) {
-    const currentDate = new Date();
     const age = calculateAge({ birth: birthDate });
 
     if (age < 18) {
