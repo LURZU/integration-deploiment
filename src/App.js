@@ -94,14 +94,19 @@ function App() {
     };
 
     return (
-        <div className="mt-10">
-            <h1 className="text-4xl text-center my-10">Formulaire d'inscription</h1>
-            {isSubmitted && (
-                <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
-                    Form submitted successfully!
-                </div>
-            )}
-            <form className="max-w-md mx-auto" onSubmit={handleSubmit}>
+
+        <div className="flex h-screen w-screen font-body">
+            <div className={"w-3/6 h-full "}><img className={"w-full h-full object-cover "} src={"capybara.jpg"} alt={"prout"}/></div>
+            <div className={"w-3/6 h-full flex justify-center items-center"}>
+                <div className={"justify-center align-middle "}>
+                <h1 className="text-4xl text-center my-10 font-heading ">Capyclub subscription</h1>
+                    {isSubmitted && (
+                        <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
+                            Form submitted successfully!
+                        </div>
+                    )}
+
+                    <form className="max-w-md mx-auto " onSubmit={handleSubmit}>
                 <div className="relative z-0 w-full mb-5 group">
                     <input
                         type="email"
@@ -205,13 +210,15 @@ function App() {
 
                 <button
                     type="submit"
-                    className={`text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center 
+                    className={`text-black bg-[#FCD143] hover:bg-[#ffe696] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center 
                     ${!isFormReady && 'opacity-50 cursor-not-allowed'}`}
                     disabled={!isFormReady}
                 >
                     Submit
                 </button>
             </form>
+                </div>
+            </div>
         </div>
     );
 }

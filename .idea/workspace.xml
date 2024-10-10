@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93f86072-6192-4769-9c88-808e423c63f7" name="Changes" comment="feats : change test">
+    <list default="true" id="93f86072-6192-4769-9c88-808e423c63f7" name="Changes" comment="feats : correct module.js">
+      <change afterPath="$PROJECT_DIR$/public/Anton-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/SpicyRice-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/capybara.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.github/workflows/build_test_react.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build_test_react.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +59,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
+  </component>
   <component name="RunManager" selected="Jest.App integration tests.should display error messages for invalid inputs">
     <configuration name="App integration tests" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
@@ -161,6 +171,8 @@
       <workItem from="1728380465257" duration="12281000" />
       <workItem from="1728394575957" duration="3701000" />
       <workItem from="1728455016952" duration="2711000" />
+      <workItem from="1728477435916" duration="7377000" />
+      <workItem from="1728541499835" duration="330000" />
     </task>
     <task id="LOCAL-00001" summary="feats : add idea to gitignore">
       <option name="closed" value="true" />
@@ -274,11 +286,70 @@
       <option name="project" value="LOCAL" />
       <updated>1728397675197</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feats : change test">
+      <option name="closed" value="true" />
+      <created>1728478610583</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1728478610583</updated>
+    </task>
+    <task id="LOCAL-00016" summary="feats : change workflow">
+      <option name="closed" value="true" />
+      <created>1728478998540</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1728478998540</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feats : correct module.js">
+      <option name="closed" value="true" />
+      <created>1728479636573</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1728479636573</updated>
+    </task>
+    <task id="LOCAL-00018" summary="feats : correct module.js">
+      <option name="closed" value="true" />
+      <created>1728480764095</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1728480764095</updated>
+    </task>
+    <task id="LOCAL-00019" summary="feats : correct module.js">
+      <option name="closed" value="true" />
+      <created>1728480825278</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1728480825278</updated>
+    </task>
+    <task id="LOCAL-00020" summary="feats : correct module.js">
+      <option name="closed" value="true" />
+      <created>1728480988199</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1728480988199</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feats : add idea to gitignore" />
@@ -286,6 +357,8 @@
     <MESSAGE value="feats : add comment" />
     <MESSAGE value="feats : remove comments" />
     <MESSAGE value="feats : change test" />
-    <option name="LAST_COMMIT_MESSAGE" value="feats : change test" />
+    <MESSAGE value="feats : change workflow" />
+    <MESSAGE value="feats : correct module.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="feats : correct module.js" />
   </component>
 </project>
