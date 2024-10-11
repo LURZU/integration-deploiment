@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93f86072-6192-4769-9c88-808e423c63f7" name="Changes" comment="feats : correct module.js">
+    <list default="true" id="93f86072-6192-4769-9c88-808e423c63f7" name="Changes" comment="feats : add codecov and some test">
+      <change afterPath="$PROJECT_DIR$/jsdoc.config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegisterForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegisterForm.test.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +170,8 @@
       <workItem from="1728455016952" duration="2711000" />
       <workItem from="1728477435916" duration="7377000" />
       <workItem from="1728541499835" duration="927000" />
+      <workItem from="1728633529677" duration="17531000" />
+      <workItem from="1728655243027" duration="784000" />
     </task>
     <task id="LOCAL-00001" summary="feats : add idea to gitignore">
       <option name="closed" value="true" />
@@ -335,7 +341,39 @@
       <option name="project" value="LOCAL" />
       <updated>1728542171770</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="feats : correct module.js">
+      <option name="closed" value="true" />
+      <created>1728635030034</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1728635030034</updated>
+    </task>
+    <task id="LOCAL-00023" summary="feats : correct build_test_react.yml">
+      <option name="closed" value="true" />
+      <created>1728635791544</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1728635791544</updated>
+    </task>
+    <task id="LOCAL-00024" summary="feats : correct build_test_react.yml">
+      <option name="closed" value="true" />
+      <created>1728635962439</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1728635962439</updated>
+    </task>
+    <task id="LOCAL-00025" summary="feats : add codecov and some test">
+      <option name="closed" value="true" />
+      <created>1728651002315</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1728651002315</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -360,6 +398,8 @@
     <MESSAGE value="feats : change test" />
     <MESSAGE value="feats : change workflow" />
     <MESSAGE value="feats : correct module.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="feats : correct module.js" />
+    <MESSAGE value="feats : correct build_test_react.yml" />
+    <MESSAGE value="feats : add codecov and some test" />
+    <option name="LAST_COMMIT_MESSAGE" value="feats : add codecov and some test" />
   </component>
 </project>
