@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93f86072-6192-4769-9c88-808e423c63f7" name="Changes" comment="feats : correct module.js">
-      <change afterPath="$PROJECT_DIR$/public/Anton-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/SpicyRice-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/capybara.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/build_test_react.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/build_test_react.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +165,7 @@
       <workItem from="1728394575957" duration="3701000" />
       <workItem from="1728455016952" duration="2711000" />
       <workItem from="1728477435916" duration="7377000" />
-      <workItem from="1728541499835" duration="330000" />
+      <workItem from="1728541499835" duration="927000" />
     </task>
     <task id="LOCAL-00001" summary="feats : add idea to gitignore">
       <option name="closed" value="true" />
@@ -334,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728480988199</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="feats : correct module.js">
+      <option name="closed" value="true" />
+      <created>1728542171770</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1728542171770</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
