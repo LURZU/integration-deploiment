@@ -1,6 +1,6 @@
 import { calculateAge, isValidAge, isValidPostalCode, isValidName, isValidEmail } from './module';
 
-describe('calculateAge Unit Tests Suites', () => {
+describe('CalculateAge', () => {
 
     it('should throw an error if no argument is provided', () => {
         expect(() => calculateAge()).toThrow("No argument was provided.");
@@ -41,8 +41,7 @@ describe('calculateAge Unit Tests Suites', () => {
 
 });
 
-describe('Validation functions tests', () => {
-
+describe('isValidAge', () => {
     it('should return true if the user is 18 or older', () => {
         const validDate = new Date(new Date().setFullYear(new Date().getFullYear() - 18));
         expect(isValidAge(validDate)).toBe(true);
@@ -52,7 +51,9 @@ describe('Validation functions tests', () => {
         const under18Date = new Date(new Date().setFullYear(new Date().getFullYear() - 17));
         expect(isValidAge(under18Date)).toBe(false);
     });
+});
 
+describe('isValidPostalCode', () => {
     it('should return true for a valid postal code', () => {
         expect(isValidPostalCode('75001')).toBe(true);
     });
@@ -62,18 +63,25 @@ describe('Validation functions tests', () => {
         expect(isValidPostalCode('123')).toBe(false);
         expect(isValidPostalCode('123456')).toBe(false);
     });
+});
 
+describe('isValidName', () => {
     it('should return true for a valid name', () => {
-        expect(isValidName('Jean-Pierre')).toBe(true);
+        expect(isValidName('Pierre-Alexis')).toBe(true);
         expect(isValidName('María')).toBe(true);
+        expect(isValidName('Loïs')).toBe(true);
         expect(isValidName("O'Connor")).toBe(true);
     });
 
     it('should return false for an invalid name', () => {
-        expect(isValidName('John123')).toBe(false);
-        expect(isValidName('John@Doe')).toBe(false);
+        expect(isValidName('JAlex123')).toBe(false);
+        expect(isValidName('JAlex@Doe')).toBe(false);
+        // Dsl Elon Ton fils peut pas être inscrit au capyclub
+        expect(isValidName('X Æ A-12')).toBe(false);
     });
+});
 
+describe('isValidEmail', () => {
     it('should return true for a valid email', () => {
         expect(isValidEmail('test@example.com')).toBe(true);
         expect(isValidEmail('user.name+tag+sorting@example.com')).toBe(true);

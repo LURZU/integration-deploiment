@@ -17,6 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --coverage --collectCoverageFrom=src/**/*.{js,jsx,ts,tsx} --collectCoverageFrom=!src/reportWebVitals.js --collectCoverageFrom=!src/index.js",
+    "test:coverage": "npm run test -- --coverage --watchAll=false",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
