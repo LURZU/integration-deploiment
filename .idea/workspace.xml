@@ -166,7 +166,7 @@
       <workItem from="1728541499835" duration="927000" />
       <workItem from="1728633529677" duration="17531000" />
       <workItem from="1728655243027" duration="3263000" />
-      <workItem from="1730379706419" duration="4428000" />
+      <workItem from="1730379706419" duration="4911000" />
     </task>
     <task id="LOCAL-00001" summary="feats : add idea to gitignore">
       <option name="closed" value="true" />
@@ -416,7 +416,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730384136377</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="feats : add npm publish on workflow">
+      <option name="closed" value="true" />
+      <created>1730384322743</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1730384322743</updated>
+    </task>
+    <task id="LOCAL-00033" summary="feats : add npm publish on workflow">
+      <option name="closed" value="true" />
+      <created>1730384417495</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1730384417495</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,0 +1,38 @@
+*
+# Ignore les fichiers et dossiers spécifiques
+node_modules
+dist
+coverage
+.DS_Store
+.env
+*.log
+*.lock
+*.tmp
+
+# Ignorer les fichiers de configuration
+.vscode
+.idea
+*.sublime-*
+*.swp
+
+# Fichiers de tests et configurations associées
+tests
+test
+__tests__
+__mocks__
+jest.config.js
+*.test.js
+*.spec.js
+*.test.ts
+*.spec.ts
+
+# Fichiers spécifiques au déploiement local
+*.local
+*.config.js
+*.config.ts
+
+# Docs et fichiers inutiles pour le package
+docs
+*.md
+LICENSE
+README.md  # si tu ne veux pas inclure la documentation dans le package
