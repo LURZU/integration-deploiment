@@ -48,8 +48,8 @@ jobs:
           npm run build-npm
           npm version patch
           npm publish
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
   deploy:
     runs-on: ubuntu-latest
