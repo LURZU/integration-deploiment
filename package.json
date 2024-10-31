@@ -2,7 +2,7 @@
   "name": "integration_deploiement_react_js",
   "version": "0.1.0",
   "homepage": "https://lurzu.github.io/integration-deploiment/",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -16,6 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-npm": "NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src --out-dir dist --copy-files",
     "test": "react-scripts test --coverage --collectCoverageFrom=src/**/*.{js,jsx,ts,tsx} --collectCoverageFrom=!src/reportWebVitals.js --collectCoverageFrom=!src/index.js",
     "test:coverage": "npm run test -- --coverage --watchAll=false",
     "eject": "react-scripts eject",
@@ -42,6 +43,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.25.9",
+    "@babel/core": "^7.26.0",
+    "@babel/plugin-transform-react-jsx": "^7.25.9",
     "autoprefixer": "^10.4.20",
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.47",
