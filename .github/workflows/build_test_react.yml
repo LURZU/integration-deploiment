@@ -41,6 +41,9 @@ jobs:
         with:
           path: build
 
+      - name: Authenticate with npm
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+
       - name: build and publish package on NPM
         run : |
           git config --global user.email "tommosti1@gmail.com"
