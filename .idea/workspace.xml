@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93f86072-6192-4769-9c88-808e423c63f7" name="Changes" comment="feats : add npm publish on workflow" />
+    <list default="true" id="93f86072-6192-4769-9c88-808e423c63f7" name="Changes" comment="feats : add npm publish on workflow">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RegisterForm.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/RegisterForm.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterForm.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +172,10 @@
       <workItem from="1728541499835" duration="927000" />
       <workItem from="1728633529677" duration="17531000" />
       <workItem from="1728655243027" duration="3263000" />
-      <workItem from="1730379706419" duration="5294000" />
+      <workItem from="1730379706419" duration="7693000" />
+      <workItem from="1730406066689" duration="162000" />
+      <workItem from="1731841580910" duration="2817000" />
+      <workItem from="1731873647422" duration="1340000" />
     </task>
     <task id="LOCAL-00001" summary="feats : add idea to gitignore">
       <option name="closed" value="true" />
@@ -440,7 +449,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730384721758</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="feats : add npm publish on workflow">
+      <option name="closed" value="true" />
+      <created>1730385247023</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1730385247023</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

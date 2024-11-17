@@ -1,6 +1,10 @@
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import RegisterForm from './components/RegisterForm';
 
+beforeEach(() => {
+    localStorage.clear();
+});
+
 describe('RegisterForm component', () => {
     beforeAll(() => {
         jest.useFakeTimers('modern');
@@ -15,6 +19,44 @@ describe('RegisterForm component', () => {
         render(<RegisterForm />);
         const submitButton = await screen.findByTestId('submit-button');
         expect(submitButton).toBeDisabled();
+    });
+
+    it('should set isFormReady to true when all fields are filled', () => {
+        render(<RegisterForm />);
+
+        const emailInput = screen.getByTestId('email-input');
+        const firstNameInput = screen.getByTestId('first-name-input');
+        const lastNameInput = screen.getByTestId('last-name-input');
+        const cityInput = screen.getByTestId('city-input');
+        const postalCodeInput = screen.getByTestId('postal-code-input');
+        const birthDateInput = screen.getByTestId('birth-date-input');
+
+        fireEvent.change(emailInput, { target: { value: 'john.doe@example.com' } });
+        fireEvent.change(firstNameInput, { target: { value: 'John' } });
+        fireEvent.change(lastNameInput, { target: { value: 'Doe' } });
+        fireEvent.change(cityInput, { target: { value: 'City' } });
+        fireEvent.change(postalCodeInput, { target: { value: '12345' } });
+        fireEvent.change(birthDateInput, { target: { value: '2000-01-01' } });
+
+        expect(screen.getByTestId('submit-button')).not.toBeDisabled();
+    });
+
+    it('should set isFormReady to false if any field is empty', () => {
+        render(<RegisterForm />);
+
+        const emailInput = screen.getByTestId('email-input');
+        const firstNameInput = screen.getByTestId('first-name-input');
+        const lastNameInput = screen.getByTestId('last-name-input');
+        const cityInput = screen.getByTestId('city-input');
+        const postalCodeInput = screen.getByTestId('postal-code-input');
+
+        fireEvent.change(emailInput, { target: { value: 'john.doe@example.com' } });
+        fireEvent.change(firstNameInput, { target: { value: 'John' } });
+        fireEvent.change(lastNameInput, { target: { value: 'Doe' } });
+        fireEvent.change(cityInput, { target: { value: '' } }); // Empty city
+        fireEvent.change(postalCodeInput, { target: { value: '12345' } });
+
+        expect(screen.getByTestId('submit-button')).toBeDisabled();
     });
 
     it('should display validation errors for invalid inputs', async () => {
@@ -100,6 +142,34 @@ describe('RegisterForm component', () => {
 
         await waitFor(() => {
             expect(screen.getByText('Form submitted successfully!')).toBeInTheDocument();
+        });
+    });
+
+    it('should save the data to localStorage on successful form submission', async () => {
+        render(<RegisterForm />);
+
+        const emailInput = screen.getByTestId('email-input');
+        const firstNameInput = screen.getByTestId('first-name-input');
+        const lastNameInput = screen.getByTestId('last-name-input');
+        const cityInput = screen.getByTestId('city-input');
+        const postalCodeInput = screen.getByTestId('postal-code-input');
+        const birthDateInput = screen.getByTestId('birth-date-input');
+        const submitButton = screen.getByTestId('submit-button');
+
+        fireEvent.change(emailInput, { target: { value: 'john.doe@example.com' } });
+        fireEvent.change(firstNameInput, { target: { value: 'John' } });
+        fireEvent.change(lastNameInput, { target: { value: 'Doe' } });
+        fireEvent.change(cityInput, { target: { value: 'Paris' } });
+        fireEvent.change(postalCodeInput, { target: { value: '75001' } });
+        fireEvent.change(birthDateInput, { target: { value: '2000-01-01' } });
+
+        fireEvent.click(submitButton);
+
+        await waitFor(() => {
+            const savedData = JSON.parse(localStorage.getItem('registeredUsers'));
+            expect(savedData).toHaveLength(1);
+            // eslint-disable-next-line testing-library/no-wait-for-multiple-assertions
+            expect(savedData[0].email).toBe('john.doe@example.com');
         });
     });
 });

@@ -72,8 +72,12 @@ function RegisterForm() {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (validateForm()) {
-            setIsSubmitted(true);
-
+            const existingData = JSON.parse(localStorage.getItem('registeredUsers')) || [];
+            const newData = {
+                ...formData,
+                registrationDate: new Date().toISOString(),
+            };
+            localStorage.setItem('registeredUsers', JSON.stringify([...existingData, newData]));
             setFormData({
                 firstName: '',
                 lastName: '',
@@ -83,6 +87,7 @@ function RegisterForm() {
                 birthDate: '',
             });
             setErrors({});
+            setIsSubmitted(true);
         }
     };
 
