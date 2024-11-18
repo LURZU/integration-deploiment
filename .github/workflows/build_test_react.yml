@@ -44,11 +44,13 @@ jobs:
       - name: Authenticate with npm
         run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
 
-      - name: build and publish package on NPM
-        run : |
+      - name: Build and publish package on NPM
+        run: |
           git config --global user.email "tommosti1@gmail.com"
           git config --global user.name "LURZU"
           npm run build-npm
+          git add .
+          git diff-index --quiet HEAD || git commit -m "Auto-commit: Build updates"
           npm version patch
           npm publish
         env:
