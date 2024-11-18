@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93f86072-6192-4769-9c88-808e423c63f7" name="Changes" comment="feats : add some test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="93f86072-6192-4769-9c88-808e423c63f7" name="Changes" comment="feats : README.md" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -173,7 +169,7 @@
       <workItem from="1730379706419" duration="7693000" />
       <workItem from="1730406066689" duration="162000" />
       <workItem from="1731841580910" duration="2817000" />
-      <workItem from="1731873647422" duration="1976000" />
+      <workItem from="1731873647422" duration="2178000" />
     </task>
     <task id="LOCAL-00001" summary="feats : add idea to gitignore">
       <option name="closed" value="true" />
@@ -463,7 +459,31 @@
       <option name="project" value="LOCAL" />
       <updated>1731875058124</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="feats : README.md">
+      <option name="closed" value="true" />
+      <created>1731875635761</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1731875635761</updated>
+    </task>
+    <task id="LOCAL-00038" summary="feats : README.md">
+      <option name="closed" value="true" />
+      <created>1731875791549</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1731875791549</updated>
+    </task>
+    <task id="LOCAL-00039" summary="feats : README.md">
+      <option name="closed" value="true" />
+      <created>1731875799323</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1731875799323</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -492,6 +512,7 @@
     <MESSAGE value="feats : add codecov and some test" />
     <MESSAGE value="feats : add npm publish on workflow" />
     <MESSAGE value="feats : add some test" />
-    <option name="LAST_COMMIT_MESSAGE" value="feats : add some test" />
+    <MESSAGE value="feats : README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="feats : README.md" />
   </component>
 </project>
