@@ -39,7 +39,7 @@ The application adheres to industry best practices, including strict linting rul
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/lurzu/integration-deploiment.git
+   git clone git@github.com:LURZU/integration-deploiment.git
    cd integration-deploiment ```
 2. Install the dependencies:
    ```bash
@@ -48,6 +48,14 @@ The application adheres to industry best practices, including strict linting rul
 3. Start the development server:
     ```bash
     npm start
+    ```
+4. Run test on project:
+    ```bash
+    npm run test
+    ```
+5. Run coverage test on project:
+    ```bash
+    npm run test:coverage
     ```
 
 ### Generate a JsDocs file
