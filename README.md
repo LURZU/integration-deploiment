@@ -1,5 +1,5 @@
 # Integration and Deployment with React.js
-
+[![codecov](https://codecov.io/gh/LURZU/integration-deploiment/graph/badge.svg?token=PYFJATBLB2)](https://codecov.io/gh/LURZU/integration-deploiment)
 Project for Ynov Capyclub form
 ## Table of Contents
 

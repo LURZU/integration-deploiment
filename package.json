@@ -1,6 +1,6 @@
 {
   "name": "integration_deploiement_react_js",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "homepage": "https://lurzu.github.io/integration-deploiment/",
   "private": false,
   "dependencies": {
